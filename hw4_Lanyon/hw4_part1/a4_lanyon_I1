@@ -1,0 +1,13 @@
+Script started on Mon 23 Nov 2015 10:18:01 PM EST
+]0;jlan90@machina: ~/CS4540/hw4_Lanyon/hw4_part1jlan90@machina:~/CS4540/hw4_Lanyon/hw4_part1$ makeclear[1Pmakeclear[1Pmake[2Plsmake clean [6Pclear[3Plsmakeclear[1Pmake[2Plsclearmake clean ls[Kmakeclear[1Pmakeclear[1Pmake[Kmakeclear[1Pmakeclear[1Pmake[2Plsmake clean [6Pclear[3Plsmakeclear[3Plsmakeclear[1Pmakeclear[3Plsmakeclear[3Plsmake clean [6Pcleardmesgclearsudo dmesg -crmmod a4_lanyon dmesg[Ksudo insmod a4_lanyon.ko dmesg[Ksudo rmmod a4_lanyon [8Pdmesg -c[8Pcleardmesgclearmake clean ls[Kclear[1Pmake[2Plsclear[1Pmakeclear[1Pmake[2Plsclear[1Pmake[2Plsclearmake clean ls[Kmakeclear[1Pmakeclear[1Pmake[Ksudo insmod part1.ko 
+[sudo] password for jlan90: 
+]0;jlan90@machina: ~/CS4540/hw4_Lanyon/hw4_part1jlan90@machina:~/CS4540/hw4_Lanyon/hw4_part1$ dmesg
+[ 8857.814795] Loading Module
+]0;jlan90@machina: ~/CS4540/hw4_Lanyon/hw4_part1jlan90@machina:~/CS4540/hw4_Lanyon/hw4_part1$ sudo rmmod parr[Kt1 
+]0;jlan90@machina: ~/CS4540/hw4_Lanyon/hw4_part1jlan90@machina:~/CS4540/hw4_Lanyon/hw4_part1$ sudo dmesg -c
+[ 8857.814795] Loading Module
+[ 8878.661035] Removing Module
+]0;jlan90@machina: ~/CS4540/hw4_Lanyon/hw4_part1jlan90@machina:~/CS4540/hw4_Lanyon/hw4_part1$ exit
+exit
+
+Script done on Mon 23 Nov 2015 10:21:20 PM EST
